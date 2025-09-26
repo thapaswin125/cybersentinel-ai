@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSentinel AI - Advanced Cybersecurity Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Top Navigation -->
+    <header class="top-nav">
+        <div class="nav-brand">
+            <div class="logo">🛡️</div>
+            <h1>CyberSentinel AI</h1>
+        </div>
+        <div class="nav-status">
+            <div class="status-indicator">
+                <span class="status-dot active"></span>
+                <span>System Active</span>
+            </div>
+            <div class="alert-counter">
+                <span class="alert-badge">3</span>
+                <span>Critical Alerts</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <ul class="nav-menu">
+                <li><a href="#dashboard" class="nav-link active" data-module="dashboard">
+                    <span class="nav-icon">📊</span>Dashboard
+                </a></li>
+                <li><a href="#threat-detection" class="nav-link" data-module="threat-detection">
+                    <span class="nav-icon">🤖</span>AI Threat Detection
+                </a></li>
+                <li><a href="#osint" class="nav-link" data-module="osint">
+                    <span class="nav-icon">🌐</span>OSINT Center
+                </a></li>
+                <li><a href="#misp" class="nav-link" data-module="misp">
+                    <span class="nav-icon">🔍</span>MISP Hub
+                </a></li>
+                <li><a href="#soar" class="nav-link" data-module="soar">
+                    <span class="nav-icon">⚡</span>SOAR Engine
+                </a></li>
+                <li><a href="#zero-trust" class="nav-link" data-module="zero-trust">
+                    <span class="nav-icon">🔐</span>Zero Trust Monitor
+                </a></li>
+                <li><a href="#quantum" class="nav-link" data-module="quantum">
+                    <span class="nav-icon">🔬</span>Quantum Security
+                </a></li>
+                <li><a href="#deception" class="nav-link" data-module="deception">
+                    <span class="nav-icon">🕸️</span>Deception Console
+                </a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Dashboard Module -->
+            <div id="dashboard" class="module active">
+                <div class="module-header">
+                    <h2>Security Dashboard</h2>
+                    <p>Real-time overview of your security posture</p>
+                </div>
+                <div class="dashboard-grid">
+                    <div class="card metric-card">
+                        <div class="metric-icon">🚨</div>
+                        <div class="metric-content">
+                            <h3>Active Threats</h3>
+                            <div class="metric-value">23</div>
+                            <div class="metric-change danger">+5 from last hour</div>
+                        </div>
+                    </div>
+                    <div class="card metric-card">
+                        <div class="metric-icon">🛡️</div>
+                        <div class="metric-content">
+                            <h3>Blocked Attacks</h3>
+                            <div class="metric-value">156</div>
+                            <div class="metric-change success">-12 from yesterday</div>
+                        </div>
+                    </div>
+                    <div class="card metric-card">
+                        <div class="metric-icon">📡</div>
+                        <div class="metric-content">
+                            <h3>Network Health</h3>
+                            <div class="metric-value">94%</div>
+                            <div class="metric-change success">Normal</div>
+                        </div>
+                    </div>
+                    <div class="card metric-card">
+                        <div class="metric-icon">🔒</div>
+                        <div class="metric-content">
+                            <h3>Zero Trust Score</h3>
+                            <div class="metric-value">87%</div>
+                            <div class="metric-change warning">Review required</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard-charts">
+                    <div class="card chart-card">
+                        <h3>Threat Detection Timeline</h3>
+                        <div class="chart-container" style="position: relative; height: 300px;">
+                            <canvas id="threatTimelineChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="card chart-card">
+                        <h3>Attack Types Distribution</h3>
+                        <div class="chart-container" style="position: relative; height: 300px;">
+                            <canvas id="attackTypesChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Threat Detection Module -->
+            <div id="threat-detection" class="module">
+                <div class="module-header">
+                    <h2>AI Threat Detection</h2>
+                    <p>Real-time network analysis powered by machine learning</p>
+                </div>
+                <div class="threat-grid">
+                    <div class="card">
+                        <h3>Active Threats</h3>
+                        <div class="threat-list" id="threatList">
+                            <!-- Dynamic content -->
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>ML Model Performance</h3>
+                        <div class="model-metrics" id="modelMetrics">
+                            <!-- Dynamic content -->
+                        </div>
+                    </div>
+                </div>
+                <div class="card chart-card">
+                    <h3>Network Traffic Analysis</h3>
+                    <div class="chart-container" style="position: relative; height: 350px;">
+                        <canvas id="networkTrafficChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- OSINT Intelligence Module -->
+            <div id="osint" class="module">
+                <div class="module-header">
+                    <h2>OSINT Intelligence Center</h2>
+                    <p>Open source intelligence and threat monitoring</p>
+                </div>
+                <div class="osint-grid">
+                    <div class="card">
+                        <h3>Intelligence Feeds</h3>
+                        <div class="intel-feeds" id="intelFeeds">
+                            <!-- Dynamic content -->
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Threat Actors</h3>
+                        <div class="threat-actors" id="threatActors">
+                            <!-- Dynamic content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MISP Hub Module -->
+            <div id="misp" class="module">
+                <div class="module-header">
+                    <h2>MISP Threat Intelligence Hub</h2>
+                    <p>Collaborative threat intelligence platform</p>
+                </div>
+                <div class="misp-grid">
+                    <div class="card">
+                        <h3>Recent Events</h3>
+                        <div class="misp-events" id="mispEvents">
+                            <!-- Dynamic content -->
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>IOC Statistics</h3>
+                        <div class="chart-container" style="position: relative; height: 250px;">
+                            <canvas id="iocChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SOAR Engine Module -->
+            <div id="soar" class="module">
+                <div class="module-header">
+                    <h2>SOAR Automation Engine</h2>
+                    <p>Security orchestration and automated response</p>
+                </div>
+                <div class="soar-grid">
+                    <div class="card">
+                        <h3>Active Playbooks</h3>
+                        <div class="playbooks" id="playbooks">
+                            <!-- Dynamic content -->
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Incident Queue</h3>
+                        <div class="incident-queue" id="incidentQueue">
+                            <!-- Dynamic content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Zero Trust Monitor Module -->
+            <div id="zero-trust" class="module">
+                <div class="module-header">
+                    <h2>Zero Trust Network Monitor</h2>
+                    <p>Continuous verification and network segmentation</p>
+                </div>
+                <div class="zero-trust-grid">
+                    <div class="card">
+                        <h3>Network Segments</h3>
+                        <div class="network-segments" id="networkSegments">
+                            <!-- Dynamic content -->
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Recent Access Attempts</h3>
+                        <div class="access-attempts" id="accessAttempts">
+                            <!-- Dynamic content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quantum Security Module -->
+            <div id="quantum" class="module">
+                <div class="module-header">
+                    <h2>Quantum-Safe Security Center</h2>
+                    <p>Post-quantum cryptography and future-ready security</p>
+                </div>
+                <div class="quantum-grid">
+                    <div class="card">
+                        <h3>Cryptographic Algorithms</h3>
+                        <div class="quantum-algorithms" id="quantumAlgorithms">
+                            <!-- Dynamic content -->
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Quantum Threat Timeline</h3>
+                        <div class="quantum-timeline" id="quantumTimeline">
+                            <!-- Dynamic content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deception Technology Module -->
+            <div id="deception" class="module">
+                <div class="module-header">
+                    <h2>Deception Technology Console</h2>
+                    <p>Honeypots and attacker behavior analysis</p>
+                </div>
+                <div class="deception-grid">
+                    <div class="card">
+                        <h3>Active Honeypots</h3>
+                        <div class="honeypots" id="honeypots">
+                            <!-- Dynamic content -->
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Attacker Profiles</h3>
+                        <div class="attacker-profiles" id="attackerProfiles">
+                            <!-- Dynamic content -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Alert Modal -->
+    <div id="alertModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="alertTitle">Alert Details</h3>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="alertBody">
+                <!-- Dynamic content -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

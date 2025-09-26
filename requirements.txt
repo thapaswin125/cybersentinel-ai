@@ -1,0 +1,76 @@
+# Web Frameworks and APIs
+flask>=2.2.5,<2.3
+fastapi>=0.65,<0.100
+uvicorn
+celery>=5.2,<5.3
+kombu==5.2.4
+redis
+
+# Machine Learning and AI
+tensorflow>=2.7,<2.11
+torch==1.13.1
+torchvision==0.14.1
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+
+# Data Processing
+pymisp
+stix2
+taxii2-client
+requests
+beautifulsoup4
+scrapy
+
+# Network Security
+scapy
+python-nmap
+pyshark
+netaddr
+dnspython
+
+# Cryptography & Security
+cryptography
+pycryptodome
+paramiko
+pyotp
+python-jose
+
+# Database and Storage
+psycopg2-binary
+elasticsearch
+pymongo
+sqlalchemy
+
+# Web & API
+aiohttp
+websockets
+flask-cors
+flask-jwt-extended
+pydantic
+
+# Monitoring & Logging
+prometheus-client
+python-json-logger
+loguru
+sentry-sdk
+
+# Testing & Development
+pytest
+pytest-asyncio
+black
+flake8
+mypy
+
+# Containerization & Deployment
+docker
+kubernetes
+gunicorn
+supervisor
+
+# Security Tools
+
+python-magic
+

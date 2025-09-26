@@ -1,0 +1,47 @@
+{
+  "test_time": {
+    "start": "2025-09-25T21:32:20.674646",
+    "end": "2025-09-25T21:33:24.401873",
+    "duration_seconds": 63.727227
+  },
+  "summary": {
+    "total_tests": 8,
+    "passed_tests": 7,
+    "success_rate": 87.5,
+    "status": "\u2705 GOOD"
+  },
+  "detailed_results": {
+    "file_structure": {
+      "total_files": 9,
+      "present": 9,
+      "missing": 0,
+      "missing_files": [],
+      "status": "PASS"
+    },
+    "dependencies": {
+      "pandas": "INSTALLED",
+      "numpy": "INSTALLED",
+      "scikit-learn": "MISSING",
+      "tensorflow": "INSTALLED",
+      "requests": "INSTALLED",
+      "beautifulsoup4": "MISSING",
+      "flask": "INSTALLED",
+      "scapy": "INSTALLED"
+    },
+    "python_imports": {
+      "ai_threat_detector.py": "SUCCESS",
+      "osint_collector.py": "SUCCESS",
+      "soar_engine.py": "SUCCESS",
+      "demo.py": "SUCCESS"
+    },
+    "web_dashboard": {
+      "index.html": "VALID",
+      "style.css": "VALID",
+      "app.js": "VALID"
+    },
+    "demo_script": "TIMEOUT",
+    "ai_threat_detector": "SUCCESS",
+    "osint_collector": "SUCCESS",
+    "soar_engine": "SUCCESS"
+  }
+}

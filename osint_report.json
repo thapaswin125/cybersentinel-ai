@@ -1,0 +1,1542 @@
+{
+  "generated_at": "2025-09-25T21:33:10.123136",
+  "total_indicators": 68679,
+  "indicator_types": {
+    "ip": 3,
+    "url": 68664,
+    "domain": 12
+  },
+  "threat_categories": {
+    "Botnet": 3,
+    "Unknown": 68659,
+    "Phishing": 17
+  },
+  "top_sources": {
+    "https://feodotracker.abuse.ch/downloads/ipblocklist.txt": 3,
+    "https://urlhaus.abuse.ch/downloads/text/": 68659,
+    "Reddit r/cybersecurity": 17
+  },
+  "indicators": [
+    {
+      "value": "137.184.9.29",
+      "type": "ip",
+      "source": "https://feodotracker.abuse.ch/downloads/ipblocklist.txt",
+      "collected_at": "2025-09-25T21:32:58.797690",
+      "confidence": 0.9,
+      "tags": [
+        "botnet",
+        "banking-trojan"
+      ],
+      "geolocation": {
+        "country": "Unknown",
+        "city": "Unknown",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "asn": "Unknown"
+      },
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Botnet"
+      ]
+    },
+    {
+      "value": "162.243.103.246",
+      "type": "ip",
+      "source": "https://feodotracker.abuse.ch/downloads/ipblocklist.txt",
+      "collected_at": "2025-09-25T21:32:58.797690",
+      "confidence": 0.9,
+      "tags": [
+        "botnet",
+        "banking-trojan"
+      ],
+      "geolocation": {
+        "country": "Unknown",
+        "city": "Unknown",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "asn": "Unknown"
+      },
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Botnet"
+      ]
+    },
+    {
+      "value": "79.194.143.100",
+      "type": "ip",
+      "source": "https://feodotracker.abuse.ch/downloads/ipblocklist.txt",
+      "collected_at": "2025-09-25T21:32:58.797690",
+      "confidence": 0.9,
+      "tags": [
+        "botnet",
+        "banking-trojan"
+      ],
+      "geolocation": {
+        "country": "Unknown",
+        "city": "Unknown",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "asn": "Unknown"
+      },
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Botnet"
+      ]
+    },
+    {
+      "value": "http://123.14.114.174:42813/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://42.57.235.21:59679/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://120.28.169.156:52049/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://42.59.73.253:40407/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://123.134.46.78:55546/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://115.50.207.141:37961/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://187.45.95.254:51082/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://123.134.46.78:55546/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://hk.pymh.ru/dma.google?t=xqdlcpvq",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://v2.o-554.ru/ensp6e0p1w.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://m3.3r7j7.ru/z3smf7bx8g.md5",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://hk.pymh.ru/dma.google?t=il80sfv8",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://187.45.95.254:51082/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://123.11.79.20:58327/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://61.52.47.15:59747/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://61.52.43.70:34134/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://42.226.64.130:56783/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://182.117.42.245:40644/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://223.122.52.0:46671/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://42.179.238.68:43916/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://42.227.135.166:44106/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://42.227.179.9:56254/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://61.52.43.70:34134/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://42.226.64.130:56783/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://61.52.46.70:56922/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://k.o-554.ru/121lfj4pt9.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://u.pymh.ru/e3p.google?t=jdyqyifz",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://xq0.9t6p5.ru/kl59dzoo62.md5",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://u.pymh.ru/e3p.google?t=uqf5cfct",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://k.o-554.ru/gxlqinl0bx.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://u.pymh.ru/e3p.google?t=a502k7dj",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://119.117.104.236:33434/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://115.53.232.7:43155/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://42.57.235.21:59679/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://175.146.156.73:40661/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://115.55.56.228:37396/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://119.117.104.236:33434/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://115.48.129.13:55408/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://115.55.247.78:36975/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://42.224.71.58:43824/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://182.117.87.9:54554/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://c5.9t6p5.ru/8yld2ia9wn.md5",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://vd.padj.ru/id.google?t=afzuln7y",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://vd.padj.ru/id.google?t=6gh1rs19",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://xq0.a-344.ru/18yvl4wm91.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://c5.9t6p5.ru/bjlzj7jvla.md5",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://0f.padj.ru/ozi.check?t=689osj70",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://c5.a-344.ru/9wnbd4jt5j.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://0f.padj.ru/ozi.check?t=x3rh7dti",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://h.pymz.ru/hev.check?t=4d2vaix4",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://c5.a-344.ru/rf1wz5wgiv.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://l.9t6p5.ru/8acq7l77mf.md5",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://115.55.247.78:36975/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://h.pymz.ru/hev.check?t=76cj9ioo",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://39.74.6.84:54803/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://l.9t6p5.ru/ss62as4vvd.md5",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://d.pymz.ru/x6.google?t=cospqh00",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://l.a-344.ru/zrbe7hkejl.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://d.pymz.ru/x6.google?t=z8dsdovx",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://182.117.86.217:33437/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://93.114.108.255:60385/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://42.224.71.58:43824/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://61.53.204.204:60899/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://115.55.249.175:36507/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://115.62.187.245:52374/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://115.55.112.17:55420/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://61.53.132.156:45062/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://78.178.95.152:45509/Mozi.a",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://78.178.95.152:45509/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://123.130.250.133:39072/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://110.38.195.85:43395/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://5.27.226.102:59826/Mozi.m",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://124.92.82.131:36414/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://123.10.31.140:50192/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://88.247.222.82:46542/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://39.74.6.84:54803/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://60.23.158.211:56219/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://94.41.213.33:53194/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://9.pymz.ru/9k.google?t=6cpmla4j",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://tn.e-410.ru/pdxyh47xp9.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://l.9t6p5.ru/pjn69k5jpo.md5",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://9.pymz.ru/9k.google?t=ja1o1xyy",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://182.117.87.9:54554/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://222.141.39.246:33267/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://60.23.158.211:56219/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://182.120.142.230:41611/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://61.52.156.239:34736/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://219.156.35.9:55603/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://115.58.14.119:34195/i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://qm9.z687a.ru/o9fghg7squ.md5",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://81.23.169.226:21766/.i",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://x.pymz.ru/yo.check?t=72efez9o",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://b2.e-410.ru/sszmh1pnrs.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://182.120.142.230:41611/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "https://x.pymz.ru/yo.check?t=v55kzw1h",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://61.52.156.239:34736/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    },
+    {
+      "value": "http://27.215.214.169:42234/bin.sh",
+      "type": "url",
+      "source": "https://urlhaus.abuse.ch/downloads/text/",
+      "collected_at": "2025-09-25T21:33:03.013967",
+      "confidence": 0.9,
+      "tags": [
+        "malware-hosting",
+        "payload-delivery"
+      ],
+      "reputation_score": 1.0,
+      "threat_categories": [
+        "Unknown"
+      ]
+    }
+  ]
+}

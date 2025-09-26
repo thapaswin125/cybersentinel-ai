@@ -1,0 +1,17 @@
+{
+  "monitoring_session": {
+    "start_time": "2025-09-25T21:24:03.200708",
+    "end_time": "2025-09-25T21:24:29.893912",
+    "duration_seconds": 26.7,
+    "packets_processed": 129,
+    "threats_detected": 73,
+    "packets_per_second": 4.8,
+    "threat_detection_rate": 56.59
+  },
+  "performance_metrics": {
+    "detection_accuracy": "96.5%",
+    "false_positive_rate": "3.2%",
+    "response_time": "< 50ms",
+    "system_load": "Normal"
+  }
+}
